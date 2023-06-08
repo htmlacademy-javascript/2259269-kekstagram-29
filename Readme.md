@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Ilya Govorukha](https://up.htmlacademy.ru/javascript/29/user/2259269).
-* Наставник: `Неизвестно`.
+* Наставник: [Владимир Вавщик](https://htmlacademy.ru/profile/id1610171)..
 
 ---
 
