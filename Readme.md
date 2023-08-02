@@ -1,7 +1,8 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Ilya Govorukha](https://up.htmlacademy.ru/javascript/29/user/2259269).
-* Наставник: [Евгений Лепёшкин](https://htmlacademy.ru/profile/spearance)..
+
+* Наставник: [Евгений Лепёшкин](https://htmlacademy.ru/profile/spearance).
 
 ---
 
