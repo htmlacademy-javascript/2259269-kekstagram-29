@@ -3,9 +3,8 @@ const COMMENTS_PER_PORTION = 5;
 const bodyElement = document.querySelector('body');
 const bigPictureElement = document.querySelector('.big-picture');
 const commentElement = document.querySelector('.social__comment');
-const commentsShownCountElement = bigPictureElement.querySelector('.comments-shown-count');
+const commentsShownCountElement = bigPictureElement.querySelector('.social__comment-count');
 const commentListElement = bigPictureElement.querySelector('.social__comments');
-const commentCountElement = bigPictureElement.querySelector('.comment-count');
 const commentsLoaderElement = bigPictureElement.querySelector('.comments-loader');
 const cancelButtonElement = bigPictureElement.querySelector('.big-picture__cancel');
 
@@ -40,8 +39,7 @@ const renderComments = () => {
 
   commentListElement.innerHTML = '';
   commentListElement.append(fragment);
-  commentsShownCountElement.textContent = commentsShown;
-  commentCountElement.textContent = comments.length;
+  commentsShownCountElement.textContent = `${commentsShown} из ${comments.length} комментариев`;
 };
 
 const hideBigPicture = () => {

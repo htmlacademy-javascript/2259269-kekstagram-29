@@ -1,7 +1,7 @@
 const ScalingOptions = {
-  STEP: 10,
+  STEP: 25,
   MIN: 0,
-  MAX: 200,
+  MAX: 100,
   DEFAULT: 100
 };
 
