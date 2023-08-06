@@ -22,30 +22,6 @@ const showAlert = (message) => {
   }, ALERT_SHOW_TIME);
 };
 
-// Рандомное позитивное число. Функция
-
-const getRandomInteger = (a, b) => {
-  const lower = Math.ceil(Math.min(a, b));
-  const upper = Math.floor(Math.max(a, b));
-  const result = Math.random() * (upper - lower + 1) + lower;
-  return Math.floor(result);
-};
-
-
-const getRandomArrayElement = (elements) => elements[getRandomInteger(0, elements.length - 1)];
-
-// Рандомное описание фото. Функция
-
-const getRandomDescription = (descriptions) => {
-  let result = '';
-  for (let i = 0; i < getRandomInteger(2, 5); i++) {
-    result += `${descriptions[getRandomInteger(0, descriptions.length - 1)]}`;
-  }
-  return result.trim();
-};
-
-// Escape-key
-
 const isEscapeKey = (evt) => evt.key === 'Escape';
 
 const debounce = (callback, timeoutDelay = TIMEOUT_DELAY) => {
@@ -58,4 +34,4 @@ const debounce = (callback, timeoutDelay = TIMEOUT_DELAY) => {
 };
 
 
-export {getRandomArrayElement, getRandomInteger, getRandomDescription, isEscapeKey, showAlert, debounce};
+export { isEscapeKey, showAlert, debounce};
